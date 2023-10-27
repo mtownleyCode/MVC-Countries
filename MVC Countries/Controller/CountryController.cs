@@ -26,7 +26,7 @@ namespace MVC_Countries.Controller
         {
             CountryDb.Add(new Country("USA", "North America", USAandFranceColors));
             CountryDb.Add(new Country("France", "Europe", USAandFranceColors));
-            CountryDb.Add(new Country("Japan", "Japan", JapanColors));
+            CountryDb.Add(new Country("Japan", "Asia", JapanColors));
         }
 
         public void CountryAction(Country country)
